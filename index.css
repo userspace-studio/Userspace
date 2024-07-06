@@ -1,5 +1,5 @@
 .logo {
-    width: 8rem;
+    width: 6rem;
 }
 
 .coming {
@@ -119,7 +119,7 @@
         padding-left: 2rem !important;
     }
     .logo {
-        width: 6rem;
+        width: 4rem;
     }
     .coming .clockdiv .fz-50 {
         font-size: 32px !important;
