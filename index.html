@@ -37,14 +37,17 @@
     <link rel="stylesheet" href="assets/css/plugins.css">
 
     <!-- Core Style Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- Inline Style Css -->
-    <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
 
 </head>
 
-<body class="home-startup main-bg">
+
+<body class="home-main-crev main-bg">
+
+
 
     <!-- ==================== Start Loading ==================== -->
 
@@ -82,116 +85,687 @@
 
     <!-- ==================== End progress-scroll-button ==================== -->
 
-    <div id="smooth-wrapper">
+    <div id="smooth-wrapper" style="position: relative !important;">
+
+        <!-- ==================== Start Navbar ==================== -->
+
+        <nav class="navbar navbar-expand-lg bord main-bg">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="logo icon-img-40" href="index.html">
+                    <img src="assets/imgs/logo/UserSpace-Sqaure-Dark.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="icon-bar"><i class="fas fa-bars"></i></span>
+                </button>
+
+                <!-- navbar links -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="index.html"><span class="rolling-text">Home</span></a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><span class="rolling-text">About</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="services.html"><span class="rolling-text">Services</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><span class="rolling-text">Portfolio</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html"><span class="rolling-text">Blog</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><span class="rolling-text">Contact</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="vew-all wow fadeIn" data-wow-delay=".8s">
+                    <a href="contact.html">Let's Talk
+                        <span>
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- ==================== End Navbar ==================== -->
 
         <div id="smooth-content">
 
+            <main class="main-bg">
 
-            <header class="header-startup full-height valign bord-thin-bottom" style="padding-top: 80px !important;">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-6 valign">
-                            <div class="caption text-center full-width md-mb50">
-                                <div class="mb-30">
-                                    <svg class="svg-animation star" width="60" height="60" viewBox="0 0 100 100"
-                                        fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 1; --transform: 30deg;"></line>
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 2; --transform: 60deg;"></line>
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 3; --transform: 90deg;"></line>
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 4; --transform: 120deg;"></line>
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 5; --transform: 150deg;"></line>
-                                        <line y1="50" x2="100" y2="50" vector-effect="non-scaling-stroke"
-                                            stroke="currentColor" style="--index: 6; --transform: 180deg;"></line>
-                                    </svg>
-                                </div>
+                <!-- ==================== Start Slider ==================== -->
 
-                                <img class="logo mb-20" src="assets/imgs/logo/userspace-dark-logo.png" alt="logo" srcset="">
-                                <div class="fw-700 d-rotate wow mb-25"
-                                    style="text-transform: uppercase; font-family: 'Epilogue', sans-serif;">
-                                    <h1 class="localtitle"><span>Userspace</span><br><span
-                                            class="stroke">&nbsp;Studio</span></h1>
-                                </div>
-                                <div class="coming">
-                                    <div class="clockdiv d-flex align-items-center justify-content-around"
-                                        data-date="July 17, 2024">
-                                        <div>
-                                            <div class="days coming-main-color3 fz-50 fw-600"></div>
-                                            <span class="sub-title ls1">Days</span>
-                                        </div>
-                                        <span class="dots"></span>
-                                        <div>
-                                            <div class="hours coming-main-color3 fz-50 fw-600"></div>
-                                            <span class="sub-title ls1">Hours</span>
-                                        </div>
-                                        <span class="dots"></span>
-                                        <div>
-                                            <div class="minutes coming-main-color3 fz-50 fw-600"></div>
-                                            <span class="sub-title ls1">Minutes</span>
-                                        </div>
-                                        <span class="dots"></span>
-                                        <div>
-                                            <div class="seconds coming-main-color3 fz-50 fw-600"></div>
-                                            <span class="sub-title ls1">Seconds</span>
+                <header class="crev-header header-startup header-creative">
+                    <div class="container mt-80">
+                        <div class="row">
+                            <div class="col-lg-9">
+                                <div class="caption">
+                                    <h3><span>IT'S YOUR</span></h3>
+                                    <h1>Brand<span class="stroke">Space</span></h1>
+                                    <div class="row mt-30">
+                                        <div class="col-lg-6 offset-lg-0 px-3">
+                                            <div class="text">
+                                                <p>Through our years of experience, we've become a passionate creative
+                                                    team
+                                                    committed to transform brands through elevated digital experiences.
+                                                </p>
+                                            </div>
+                                            <div class="crv-butn-vid mt-30">
+                                                <a href="contact.html" class="vid">
+                                                    <span class="text title">Let's Talk&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                                    <span class="icon main-colorbg4">
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                                fill="currentColor"></path>
+                                                        </svg>
+                                                    </span>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="text-center mt-50 rotate-text">
-                                    <!-- <h5>Stay tuned to transform brands that lead businesses forward, influence and make change. </h5>
-                                    <h5>Stay tuned to digitally expand as your brand space gets ready to launch!</h5> -->
-                                    <h5>Stay tuned to transform your brand as your brandspace is set to launch 🚀</h5>
-                                    <!-- <h5>Stay tuned to explore a world of designs  - Your brand space is set to
-                                        launch!</h5> -->
-                                
-                                </div>
-                                <div class="subscribe mt-0">
-                                    <a href="https://forms.gle/FFX44BcNJ7bvbVN69" target="_blank"
-                                        class="butn butn-md butn-bg sub-button main-colorbg2 text-white mt-30">
-                                        <span>Subscribe to unlock special offer<i class="ml-5"><svg width="18"
-                                                    height="18" viewBox="0 0 18 18" fill="none"
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="md-hide">
+                                    <a href="services.html" class="hover-this">
+                                        <div class="circle-button in-bord hover-anim">
+                                            <div class="rotate-circle fz-30 text-u">
+                                                <svg class="textcircle" viewBox="0 0 500 500">
+                                                    <defs>
+                                                        <path id="textcircle"
+                                                            d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                                        </path>
+                                                    </defs>
+                                                    <text>
+                                                        <textPath xlink:href="#textcircle" textLength="900">Explore More
+                                                            -
+                                                            Explore More -</textPath>
+                                                    </text>
+                                                </svg>
+                                            </div>
+                                            <div class="arrow">
+                                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                                                     xmlns="http://www.w3.org/2000/svg">
                                                     <path
                                                         d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
                                                         fill="currentColor"></path>
-                                                </svg></i></span>
+                                                </svg>
+                                            </div>
+                                        </div>
                                     </a>
-                                    <p class="fz-12 text-center mt-15"><i>We do not share your information with any
-                                            third party and no spam.</i></p>
                                 </div>
-                                <div class="rest social-text mt-30">
-                                    <span><a href="https://www.instagram.com/userspace.studio/" target=”_blank”><img
-                                                src="assets/imgs/social/instagram.png" alt=""></a></span>
-                                    <span><a href="https://www.facebook.com/userspace.studio/" target=”_blank”><img
-                                                src="assets/imgs/social/facebook.png" alt=""></a></span>
-                                    <span><a href="https://www.youtube.com/@userspace.studio" target=”_blank”><img
-                                                src="assets/imgs/social/youtube.png" alt=""></a></span>
-                                    <span><a href="https://www.linkedin.com/company/userspace-studio/"
-                                            target=”_blank”><img src="assets/imgs/social/linkedin.png"
-                                                alt=""></a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-img intro-corp">
+                        <div class="imgs mb-80">
+                            <div class="img1">
+                                <video width="600" height="400" autoplay muted loop>
+                                    <source src="assets/imgs/videos/website_video4.mp4" type="video/mp4">
+                                  </video>
+                                
+                            </div>
+                            <!-- <div class="img2">
+                                <img src="assets/imgs/fold-image-6.png" alt="" class="radius-10">
+                            </div> -->
+                        </div>
+                    </div>
+
+                    <div class="bg-pattern bg-img" data-background="assets/imgs/patterns/graph.png"></div>
+                </header>
+
+                <!-- ==================== End Slider ==================== -->
+
+
+
+                <!-- ==================== Start marq ==================== -->
+
+                <section class="serv-marq main-colorbg2">
+                    <div class="container-fluid ontop sub-bg rest pt-20 pb-20">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="main-marq light-text">
+                                    <div class="slide-har st1">
+                                        <div class="box non-strok">
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Branding</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>UI-UX Design</span> <span
+                                                        class="fz-50 ml-50 stroke icon">*</span></h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Website & Hosting</span> <span
+                                                        class="fz-50 ml-50 stroke icon">*</span></h4>
+                                            </div>
+                                            <!-- <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div> -->
+                                            <!-- <div class="item">
+                                                <h4 class="d-flex align-items-center"><span></span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div> -->
+                                        </div>
+                                        <div class="box non-strok">
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Branding</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>UI-UX Design</span> <span
+                                                        class="fz-50 ml-50 stroke icon">*</span></h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Website & Hosting</span> <span
+                                                        class="fz-50 ml-50 stroke icon">*</span></h4>
+                                            </div>
+                                            <!-- <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Mobile Solutions</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div>
+                                            <div class="item">
+                                                <h4 class="d-flex align-items-center"><span>Digital Marketing</span>
+                                                    <span class="fz-50 ml-50 stroke icon">*</span>
+                                                </h4>
+                                            </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End marq ==================== -->
+
+                <!-- ==================== Start intro ==================== -->
+
+                <section class="about section-padding main-bg">
+                    <div class="container ontop">
+                        <div class="row">
+                            <div class="col-lg-5 valign">
+                                <div class="about-circle-crev md-hide">
+                                    <div class="circle-button">
+                                        <div class="rotate-circle fz-16 ls1 text-u">
+                                            <svg class="textcircle" viewBox="0 0 500 500">
+                                                <defs>
+                                                    <path id="textcircle"
+                                                        d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z">
+                                                    </path>
+                                                </defs>
+                                                <text>
+                                                    <textPath xlink:href="#textcircle" textLength="900"> Creative Design
+                                                        Studio - Creative Design Studio - </textPath>
+                                                </text>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="half-circle-img">
+                                        <img src="assets/imgs/about/about-image-1.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 valign">
+                                <div class="cont sec-lg-head">
+                                    <h6 class="dot-titl mb-20">About Studio</h6>
+                                    <h2 class="d-slideup wow">
+                                        <span class="sideup-text"><span class="up-text">We’re sharp brands
+                                                <span class="sub-font">creators</span></span></span>
+                                        <span class="sideup-text"><span class="up-text">open for any <span
+                                                    class="stroke fw-800">new</span>
+                                                collabs</span></span>
+                                    </h2>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="text mt-20">
+                                                <p>Grow brands through bold and strategic creative, focused on searching
+                                                    new
+                                                    ways to showcase user content on digital support and envisioning the
+                                                    future
+                                                    arts.</p>
+                                            </div>
+                                            <div class="underline">
+                                                <a href="about.html" class="mt-30 ls1 sub-title">Read More <i
+                                                        class="ml-5">
+                                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                                fill="currentColor"></path>
+                                                        </svg></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- ==================== End intro ==================== -->
+
+
+
+                <!-- ==================== Start Services ==================== -->
+
+                <section class="services section-padding pb-0 bg-gray1 position-re o-hidden radius-30">
+                    <div class="container ontop">
+                        <div class="row">
+                            <div class="col-lg-4 sec-lg-head">
+                                <h6 class="dot-titl mb-20">Services</h6>
+                                <!-- <h6><span class="fz-14">02 . </span> Services</h6> -->
+                            </div>
+                            <div class="col-lg-6 offset-lg-1">
+                                <div class="text">
+                                    <h3>We create <span class="sub-font">experiences</span> and turn ideas into reality.
+                                    </h3>
+                                </div>
+                                <div class="row mt-40">
+                                    <div class="col-md-9 offset-md-2">
+                                        <!-- <p>Our area of practice is quite wide: design, branding. The experts who work at our design studio know exactly how to make your project unique, fresh, and profitable.</p> -->
+                                        <p>Finding the best marketing solution for your business. Driven by data based
+                                            on human behavior.</p>
+                                        <div class="underline">
+                                            <a href="services.html" class="mt-30 ls1 sub-title">View Full Services <i
+                                                    class="ml-5">
+                                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                            fill="currentColor"></path>
+                                                    </svg></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="metro mt-80 ontop">
+                        <div class="items">
+                            <div class="item" style="background: none; min-width: 50px !important;">
+                            </div>
+                            <div class="item" style="background: none;">
+                                <!-- <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/01-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="page-services.html">Branding</a>
+                                </h5> -->
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/01-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="services.html">Branding</a>
+                                </h5>
+                                <p>A brand is more than a logo and colors. We'll create a unique identity, make
+                                    essential assets, and set clear guidelines for consistency across all areas.</p>
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/02-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="services.html">UI-UX Design</a>
+                                </h5>
+                                <p>We create genuine connections using aesthetics and behavioral science, delivering
+                                    engaging digital products that boost brands in today's economy.
+                                </p>
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/05-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="services.html">Digital Marketing</a>
+                                </h5>
+                                <p>We promote your brands to connect with potential customers through email, 
+                                    social media,text, and multimedia messages as a marketing channel.</p>
+                            </div>
+                            <div class="item">
+                                <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/03-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="services.html">Websites</a>
+                                </h5>
+                                <p>We specialize in expertly crafting websites that reflect a brand's identity and
+                                    perspective for a better user experience in today's digital era.</p>
+                            </div>
+                            <!-- <div class="item">
+                                <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/04-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="services.html">Content</a>
+                                </h5>
+                                <p>A brand is more than a logo and colors. We'll create a unique identity, make
+                                    essential assets, and set clear guidelines for consistency across all areas.
+                                </p>
+                            </div> -->
+                            <div class="item" style="background: none;">
+                                <!-- <span class="icon icon-img-80 mb-40">
+                                    <img src="assets/imgs/serv-icons/01-dark.svg" alt="">
+                                </span>
+                                <h5 class="mb-20 fw-700">
+                                    <a href="page-services.html">Creative Vision</a>
+                                </h5>
+                                <p>Creating a higher spacing and how people move through a unique.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-feat section-padding ontop">
+                        <div class="container section-padding pb-0 bord-thin-top bord-dark">
+                            <div class="row justify-content-around">
+                                <div class="col-lg-6">
+                                    <div class="cont md-mb50 sec-lg-head">
+                                        <h6 class="dot-titl mb-20">Our Process</h6>
+                                        <!-- <h6 class="mb-15"><span class="fz-14">03 . </span>Our Process</h6> -->
+                                        <h3 class="mb-30">We help you to go online and increase your
+                                            <span class="sub-font">Conversion rate.</span>
+                                        </h3>
+                                        <div class="row justify-content-center">
+                                            <div class="col-md-10">
+                                                <div class="text">
+                                                    <p>We want to bring business & the digital world together.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 offset-lg-1 valign">
+                                    <div class="bg-img full-width d-flex align-items-center justify-content-center"
+                                        data-background="assets/imgs/process-image.png">
+                                        <div>
+                                            <div class="play-button">
+
+                                                <div class="butn-ply">
+                                                    <svg width="80px" height="80px" viewBox="0 0 80 80"
+                                                        preserveAspectRatio="none">
+                                                        <!-- <circle class="circle" cx="40" cy="40" r="38"
+                                                                stroke="#c9f31d" stroke-width="2" fill="none"></circle> -->
+                                                    </svg>
+                                                    <!-- <i class="fas fa-play"></i> -->
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="process-crev mt-100">
+                                <div class="row">
+                                    <div class="item col-lg-3 col-md-6">
+                                        <h6 class="mb-10">01 .</h6>
+                                        <h5 class="fw-600">Brainstorm</h5>
+                                        <p>Team generates the ideas to solve a problem, understands and identify needs
+                                            of the your business may have.</p>
+                                    </div>
+                                    <div class="item col-lg-3 col-md-6">
+                                        <h6 class="mb-10">02 .</h6>
+                                        <h5 class="fw-600">Define</h5>
+                                        <p>The team leverages first-stage insights to specify how the product will
+                                            impact users by outlining clear goals.</p>
+                                    </div>
+                                    <div class="item col-lg-3 col-md-6">
+                                        <h6 class="mb-10">03 .</h6>
+                                        <h5 class="fw-600">Design</h5>
+                                        <p>Team begin to actively develop ideas, check specifications, and generate
+                                            designs that keep the user top of mind</p>
+                                    </div>
+                                    <div class="item col-lg-3 col-md-6">
+                                        <h6 class="mb-10">04 .</h6>
+                                        <h5 class="fw-600">Test & Launch</h5>
+                                        <p>Team evaluates the protoype based on feedback from potential users to make it
+                                            intuitive and handover it.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-pattern bg-img bg-repeat" data-background="assets/imgs/patterns/bg-pattern.png">
+                    </div>
+                </section>
+
+                <!-- ==================== End Services ==================== -->
+
+
+
+
+
+
+
+
+                <!-- ==================== Start section ==================== -->
+
+                <section class="works thecontainer" style="display: none !important;">
+
+                </section>
+
+                <!-- ==================== End section ==================== -->
+
+
+
+
+                <!-- ==================== Start call to action ==================== -->
+
+                <section class="call-action-img">
+                    <div class="container">
+                        <div class="sec-bg-img bg-img parallaxie"
+                            data-background="assets/imgs/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg"></div>
+                        <div class="sec-lg-head section-padding">
+                            <div class="row ontop">
+                                <div class="col-11 d-flex align-items-center">
+                                    <div class="valign">
+                                        <h2 class="fz-50 d-rotate wow">
+                                            <span class="rotate-text">Have a project in mind?</span>
+                                            <span class="rotate-text">Let’s <span class="sub-font">get to
+                                                    work</span>.</span>
+                                        </h2>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <a href="contact.html"
+                                            class="butn-circle d-flex align-items-center text-center m-auto">
+                                            <div class="full-width">
+                                                <span><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M13.922 4.5V11.8125C13.922 11.9244 13.8776 12.0317 13.7985 12.1108C13.7193 12.1899 13.612 12.2344 13.5002 12.2344C13.3883 12.2344 13.281 12.1899 13.2018 12.1108C13.1227 12.0317 13.0783 11.9244 13.0783 11.8125V5.51953L4.79547 13.7953C4.71715 13.8736 4.61092 13.9176 4.50015 13.9176C4.38939 13.9176 4.28316 13.8736 4.20484 13.7953C4.12652 13.717 4.08252 13.6108 4.08252 13.5C4.08252 13.3892 4.12652 13.283 4.20484 13.2047L12.4806 4.92188H6.18765C6.07577 4.92188 5.96846 4.87743 5.88934 4.79831C5.81023 4.71919 5.76578 4.61189 5.76578 4.5C5.76578 4.38811 5.81023 4.28081 5.88934 4.20169C5.96846 4.12257 6.07577 4.07813 6.18765 4.07812H13.5002C13.612 4.07813 13.7193 4.12257 13.7985 4.20169C13.8776 4.28081 13.922 4.38811 13.922 4.5Z"
+                                                            fill="currentColor"></path>
+                                                    </svg></span>
+                                                <span class="full-width">Get In Touch</span>
+                                            </div>
+                                            <img src="assets/imgs/svg-assets/circle-star.svg" alt=""
+                                                class="circle-star">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ==================== End call to action ==================== -->
+
+
+            </main>
+
+
+
+            <!-- ==================== Start Footer ==================== -->
+
+            <footer class="pt-80 main-bg">
+                <div class="container pb-80">
+                    <div class="row">
+                        <!-- <div class="col-lg-3">
+                            <div class="colum md-mb50">
+                                <div class="tit mb-20">
+                                    <h6>Address</h6>
+                                </div>
+                                <div class="text">
+                                    <p>Germany — 785 15h Street, Office 478 Berlin, De 81566</p>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-lg-3">
+                            <div class="colum md-mb50">
+                                <div class="tit mb-20">
+                                    <h6>Say Hello</h6>
+                                </div>
+                                <div class="text">
+                                    <p class="mb-10">
+                                        <a href="mailto:team@uxminds.studio">team@uxminds.studio</a>
+                                    </p>
+                                    <h5>
+                                        <a href="#0" class="main-color2">+91 8722644034</a>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 md-mb50">
+                            <div class="tit mb-20">
+                                <h6>Company</h6>
+                            </div>
+                            <ul class="rest social-text">
+                                <li>
+                                    <a href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="services.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="portfolio.html">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 md-mb50">
+                            <div class="tit mb-20">
+                                <h6>Follow Us</h6>
+                            </div>
+                            <ul class="rest social-text">
+                                <li>
+                                    <a href="https://www.instagram.com/ux_minds/" target=”_blank”><span><img src="assets/imgs/icons/instagram.svg" alt=""></span><span>Instagram</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/@UXMinds" target=”_blank”><span><img src="assets/imgs/icons/youtube.svg" alt=""></span><span>Youtube</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.facebook.com/uxminds.studio/" target=”_blank”><span><img src="assets/imgs/icons/square-facebook.svg" alt=""></span><span>Facebook</span></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/uxminds/" target=”_blank”><span><img src="assets/imgs/icons/linkedin.svg" alt=""></span><span>LinkedIn</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 md-mb50">
+                            <div class="tit mb-20">
+                                <h6>Legal</h6>
+                            </div>
+                            <ul class="rest social-text">
+                                <li>
+                                    <a href="#0">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="col-lg-3">
+                            <div class="tit mb-20">
+                                <h6>Newsletter</h6>
+                            </div>
+                            <div class="subscribe">
+                                <form action="contact.php">
+                                    <div class="form-group rest">
+                                        <input type="email" placeholder="Type Your Email">
+                                        <button type="submit">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="sub-footer pt-40 pb-40 bord-thin-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 px-2">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="assets/imgs/UX-logo-dark.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="copyright d-flex">
+                                    <div class="ml-auto">
+                                        <p class="fz-13">© 2024 UX Minds.&nbsp;<span class="underline">| Based in
+                                                Bengaluru, India.</span></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="bg-pattern bg-img" data-background="assets/imgs/patterns/graph.png"></div>  -->
-                <div class="bg-pattern-half bg-img opacity-5" data-background="assets/imgs/svg-assets/patern-bg.png">
-                </div>
-                <div class="bg-pattern-half bg-img opacity-5" data-background="assets/imgs/svg-assets/patern-bg.png">
-                </div>
+            </footer>
 
-            </header>
-
-
+            <!-- ==================== End Footer ==================== -->
 
 
 
         </div>
     </div>
+
+
+
+
+
+
 
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
@@ -203,9 +777,9 @@
     <script src="assets/js/gsap.min.js"></script>
     <script src="assets/js/ScrollSmoother.min.js"></script>
     <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/hscroll.js"></script>
     <script src="assets/js/smoother-script.js"></script>
-
-    <script src="assets/js/countdown.js"></script>
+    <script src="assets/js/metro-scroll.js"></script>
 
     <!-- custom scripts -->
     <script src="assets/js/scripts.js"></script>
