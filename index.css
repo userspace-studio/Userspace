@@ -7,6 +7,9 @@
  .main-bg{
     background-color: #FFFFFF;
  }
+ .grey-bg{
+    background-color: #F5F9FD;
+ }
  .services{
     background-color: #F5F9FD !important;
  }
@@ -67,7 +70,7 @@
 
 .social-text img {
     display: inline-block;
-    width: 1.4rem;
+    width: 1.2rem;
     vertical-align: middle;
 }
 
@@ -140,31 +143,6 @@
 .stroke {
     color: transparent !important;
     -webkit-text-stroke: 1.4px #1d1d1d !important;
-}
-@media screen and (max-width: 768px) {
-    .sub-button{
-        padding-right: 2rem !important;
-        padding-left: 2rem !important;
-    }
-    /* .logo {
-        width: 4rem;
-    } */
-    .coming .clockdiv .fz-50 {
-        font-size: 32px !important;
-    }
-    .svg-animation{
-        width: 40px;
-        height: 40px;
-    }
-    h1 {
-        font-size: 40px;
-    }
-
-}
-@media screen and (max-width: 992px) {
-    /* .navbar .navbar-toggler {
-        margin-right: 0px !important;
-    } */
 }
 
 /* header{
@@ -252,4 +230,118 @@
 }
 .intro-corp .imgs .img1.main-color3:after {
     background: linear-gradient(45deg, #45c4f9, #7d09ff 50.33%, #ff0be5) !important;
+}
+.sub-header{
+    color: #1d1d1d;
+}
+
+@media screen and (max-width: 768px) {
+    .sub-button{
+        padding-right: 2rem !important;
+        padding-left: 2rem !important;
+    }
+    /* .logo {
+        width: 4rem;
+    } */
+    .coming .clockdiv .fz-50 {
+        font-size: 32px !important;
+    }
+    .svg-animation{
+        width: 40px;
+        height: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    .sm-hide {
+        display: none !important;
+    }
+    .section-padding {
+        padding: 40px 15px;
+    }
+    .services.section-padding{
+        padding: 80px 0px;
+    }
+    .contact-header.section-padding{
+        padding: 140px 15px;
+    }
+    .service-header.section-padding{
+        padding: 80px 15px;
+    }
+    .about-header.section-padding{
+        padding: 80px 15px;
+    }
+    .services.section-padding .container{
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .pg-about .sec-lg-head{
+        margin-top: 2rem !important;
+    }
+
+    .row.lg-marg > * {
+        padding-left: 60px;
+       padding-right: 60px;
+    }
+    .intro-corp  .row.lg-marg > * {
+        padding-left: 40px;
+       padding-right: 40px;
+    }
+    .intro-corp h6{
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.4rem;
+    }
+    /* .row > * {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: 0;
+    } */
+    header.full-height {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding: 140px 0 80px;
+    }
+    .services .metro .items .item {
+        padding: 60px 40px;
+    }
+    .services .metro .items .item .icon img{
+        width: 75%;
+    }
+    .services h5{
+        font-size: 1.6rem;
+        margin-bottom: 10px !important;
+    }
+    footer{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    iframe{
+        width: 100% !important;
+    }
+    .email a{
+        font-size: 1.3rem;
+    }
+    .phone{
+        margin-top: 8px !important;
+    }
+    .phone a{
+        font-size: 1.3rem;
+    }
+    .sm-mb-20{
+        margin-bottom: 24px !important;
+    }
+    .our-story{
+        margin-top: 1rem !important;
+    }
+    .our-story p {
+        font-size: 1rem;
+        color: #1d1d1d;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    /* .navbar .navbar-toggler {
+        margin-right: 0px !important;
+    } */
 }
