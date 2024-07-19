@@ -4445,10 +4445,15 @@ body.loaded {
 }
 
 .intro-corp .imgs .img1 {
-  width: 75%;
+  width: 60%;
+  height: 600px;
   margin-left: 25%;
   position: relative;
   z-index: 3;
+  margin-left: 29%;
+  position: relative;
+  z-index: 3;
+  margin-top: 8%;
 }
 
 .intro-corp .imgs .img1:after {
@@ -7657,7 +7662,7 @@ header.in-box {
 
 .header-startup .caption .stroke {
   color: transparent;
-  -webkit-text-stroke: 0.5px #1d1d1d;
+  -webkit-text-stroke: 1px #1d1d1d;
 }
 
 .header-startup .caption .icon-img-60 {
