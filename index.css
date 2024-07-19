@@ -16,7 +16,9 @@
  footer{
     background-color: #F5F9FD !important;
  }
-
+.lg-hide{
+    display: none !important;
+}
 .coming {
     position: relative;
     min-height: 100%;
@@ -300,7 +302,7 @@
     header.full-height {
         padding-left: 15px !important;
         padding-right: 15px !important;
-        padding: 140px 0 80px;
+        padding: 60px 0 80px;
     }
     .services .metro .items .item {
         padding: 60px 40px;
@@ -337,6 +339,35 @@
     .our-story p {
         font-size: 1rem;
         color: #1d1d1d;
+    }
+    .header-digital .half-img-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-position: right bottom;
+        background-size: 88% !important;
+        pointer-events: none;
+    }
+    .home-page{
+        padding-top: 2px;
+        padding-bottom: 8rem;
+    }
+    .header-digital .caption h1{
+        font-size: 2.2rem;
+    }
+    .intro-gradient span{
+        font-size: 0.7rem;
+    }
+    .intro-gradient{
+        padding: .4rem .6rem;
+    }
+    .home-page .text p{
+        font-size: 0.8rem;
+    }
+    .home-page .text{
+        margin-top: 12px !important;
     }
 }
 
