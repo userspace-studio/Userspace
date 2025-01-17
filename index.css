@@ -532,3 +532,20 @@ select[name="cf_leads_service[]"] {
     color: #fff;
     border-color: #5857f9 !important;
 }
+
+/* Solutions stylings */
+.solution-header{
+    background:url(assets/imgs/sass-img/vtiger-worksmall.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.about-header .icon-img-80{
+    width: 15%;
+}
+.swiper4{
+    transform: none !important;
+}
+.credits{
+    width: 60%;
+}
